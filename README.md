@@ -8,7 +8,7 @@ There are 5 processes and 3 resource types, resource A with 10 instances, B with
 
 
 
-#include <stdio.h>
+include <stdio.h>
  
 int current[5][5], maximum_requested[5][5], available[5];
 int allocation[5] = {0, 0, 0, 0, 0};
@@ -17,7 +17,7 @@ int counter = 0, i, j, exec, resources, processes, k = 1;
  
 int main()
 {
-		printf("\nEnter number of processes: ");
+	printf("\nEnter number of processes: ");
     	scanf("%d", &processes);
  
     	for (i = 0; i < processes; i++) 
