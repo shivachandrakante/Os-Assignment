@@ -37,15 +37,7 @@ int main()
   				scanf("%d", &current[j][i]);
         	}
     	}
-/*		for (i = 0; i < processes; i++) 
-		{
-			printf("\n");
-	        for(j = 0; j < resources; j++) 
-			{
-  				scanf("%d", &current[i][j]);
-        	}
-    	}
-*/ 
+
     	printf("\nEnter Maximum Need Table:\n");
     	for (i = 0; i < resources; i++) 
 		{
@@ -55,15 +47,7 @@ int main()
             	scanf("%d", &maximum_requested[j][i]);
         	}
     	}
-/*    	for (i = 0; i < processes; i++) 
-		{
-			printf("\n");
-        	for(j = 0; j < resources; j++) 
-			{
-          		scanf("%d", &maximum_requested[i][j]);
-        	}
-    	}
-*/ 
+
 		printf("\nThe Maxium Instances are: ");
     	for (i = 0; i < resources; i++) 
 		{
